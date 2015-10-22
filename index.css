@@ -1,0 +1,50 @@
+#container {
+  background: black;
+}
+
+.flip {
+  margin: 0 auto;
+  width: 500px;
+  height: 100px;
+  color: yellow;
+  padding-top: 40px;
+}
+
+.price-div {
+  font: 12px tahoma, Arial, Verdana, sans-serif;
+}
+
+.price-div > div,
+.total-price > div {
+  float: left;
+  text-align: center;
+}
+
+.price-icon {
+  background: dimgrey;
+  width: 25px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  float: left;
+  margin-right: 2px;
+}
+
+.price-div .number {
+  background: dimgrey;
+  width: 32px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 43px;
+  font-weight: bold;
+  overflow: hidden;
+  margin-right: 1px;
+}
+
+.price-div .sign {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 68px;
+  height: 48px;
+}
